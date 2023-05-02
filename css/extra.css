@@ -1,5 +1,4 @@
 .dx {
-    background-image: url(/images/mai/UI_CMN_DXRating_S_06.png);
     display: flex;
     margin: -15px 0 10px 0;
     height: 36px;
@@ -12,9 +11,39 @@
     margin-right: 15px;
     vertical-align: top;
     text-align: center;
-    color: white;
+    color: rgb(255, 222, 68);
     font-size: 16.5px;
     font-weight: 700;
     letter-spacing: 4.5px;
     text-shadow: -2px -2px 0 #25152a, 0 -2px 0 #25152a, 2px -2px 0 #25152a, 2px 0 0 #25152a, 2px 2px 0 #25152a, 0 2px 0 #25152a, -2px 2px 0 #25152a, -2px 0 0 #25152a;
+}
+.dx-rating-1 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_01.png);
+}
+.dx-rating-2 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_02.png);
+}
+.dx-rating-3 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_03.png);
+}
+.dx-rating-4 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_04.png);
+}
+.dx-rating-5 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_05.png);
+}
+.dx-rating-6 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_06.png);
+}
+.dx-rating-7 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_07.png);
+}
+.dx-rating-8 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_08.png);
+}
+.dx-rating-9 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_09.png);
+}
+.dx-rating-10 {
+    background-image: url(/images/mai/UI_CMN_DXRating_S_10.png);
 }
