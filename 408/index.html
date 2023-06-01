@@ -170,7 +170,7 @@
 <hr>
 <p>使用命令触发的那些插件很快就写完了，当我准备写检测mc更新的时候，惊喜的发现，这绝对不可能</p>
 <p>lua原生并不支持多线程，那也就意味着定时执行也不存在。那么有没有不调用lua第三方库还能实现定时任务的方法呢</p>
-<p>很巧的是，我发现OPQ框架有Web发送接口，这就意味着可以使用http请求来发送内容到群聊；更巧的是，linux内置的crontab再搭配shell不就能实现需求吗 二话不说立马开始行动</p>
+<p>很巧的是，我发现OPQ框架有Web发送接口，这就意味着可以使用http请求来发送内容到群聊；更巧的是，linux内置的crontab再搭配shell不就能实现需求吗<br>二话不说立马开始行动</p>
 <h2 id="开始行动"><a href="#开始行动" class="headerlink" title="开始行动"></a>开始行动</h2><hr>
 <p>检测更新的接口来自：<a target="_blank" rel="noopener" href="http://launchermeta.mojang.com/mc/game/version_manifest.json">http://launchermeta.mojang.com/mc/game/version_manifest.json</a>（只有java版本）</p>
 <p>直接访问就可得到非常长的一串json文本，但是我们用到的地方很少</p>

@@ -189,11 +189,11 @@
 <h2 id="部署-GeyserMC"><a href="#部署-GeyserMC" class="headerlink" title="部署 GeyserMC"></a>部署 GeyserMC</h2><p>插件版放进服务器对应目录下 <code>plugins</code><br>独立版直接放一个单独的文件夹</p>
 <p>运行一次后关闭，需要配置 <code>config.yml</code></p>
 <p><img src="/images/geysermc/img2.jpg"></p>
-<h3 id="开服用"><a href="#开服用" class="headerlink" title="开服用"></a>开服用</h3><p>如果是服主，并且运行在本地服务器<br>只需修改 <code>motd1</code> <code>motd2</code> <code>server-name</code> 和 <code>max-players</code><br>没有特殊情况 <code>address</code> 和 <code>port</code> 保持不变<br>如果是离线服务器需要将 <code>auth-type</code> 改为 Offline</p>
+<h3 id="开服用"><a href="#开服用" class="headerlink" title="开服用"></a>开服用</h3><p>如果是服主，并且运行在本地服务器<br>只需修改 <code>bedrock</code> 中的 <code>motd1</code> <code>motd2</code> <code>server-name</code> 和 <code>max-players</code><br>没有特殊情况 <code>address</code> 和 <code>port</code> 保持不变<br>如果是离线服务器需要将 <code>remote</code> 中的 <code>auth-type</code> 改为 Offline</p>
 <blockquote>
 <p>经测试，使用 Spigot/Paper 端时，重载插件版配置会一直卡在加载 Geyser 的状态<br>建议使用独立版（面板服除外）</p>
 </blockquote>
-<h3 id="仅中转用"><a href="#仅中转用" class="headerlink" title="仅中转用"></a>仅中转用</h3><p><code>address</code> 和 <code>port</code> 修改为对应 Java 服务器地址<br>依据服务器类型修改 <code>auth-type</code>（Online 或 Offline）</p>
+<h3 id="仅中转用"><a href="#仅中转用" class="headerlink" title="仅中转用"></a>仅中转用</h3><p><code>remote</code> 中的 <code>address</code> 和 <code>port</code> 修改为对应 Java 服务器地址<br>依据服务器类型修改 <code>auth-type</code>（Online 或 Offline）</p>
 <blockquote>
 <p>不要在有反作弊的服务器使用，可能会封号</p>
 </blockquote>
