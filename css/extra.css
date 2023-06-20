@@ -3,9 +3,11 @@
     display: flex;
     height: 47px;
     width: 252px;
-    margin: -15px 0 10px 0;
     align-items: center;
     justify-content: end;
+}
+.dx-festival-margin {
+    margin: -15px 0 10px 0;
 }
 .dx-festival .content {
     display: inline-block;
