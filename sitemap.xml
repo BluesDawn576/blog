@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.bluesdawn.top/cmasb7ppp0000jkqah1lfdrxp/</loc>
-    
-    <lastmod>2025-02-21</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.bluesdawn.top/about/index.html</loc>
     
     <lastmod>2024-09-20</lastmod>
@@ -516,27 +509,6 @@
   
   <url>
     <loc>https://www.bluesdawn.top/tags/nvm/</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bluesdawn.top/tags/recaptcha/</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bluesdawn.top/tags/vue/</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bluesdawn.top/tags/Spring-Boot/</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
